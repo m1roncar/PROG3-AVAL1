@@ -1,0 +1,179 @@
+
+body {
+    background-color: #f2f2f2;
+    font-family:'Cabin', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#logo:hover {
+    filter:invert(100%);
+}
+
+#navbarSupportedContent{
+    font-weight: bold;
+    font-family: 'Cabin Condensed', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.upheader {
+    font-size: small;
+    color: black;
+}
+#city{
+    margin-top: 1%;
+}
+
+.about {
+
+    border-left-style:solid;
+    border-right-style: solid;
+    border-color: rgb(218, 218, 218);
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 70%;
+    padding-left: 2%;
+    padding-right: 4%;
+
+}
+.about > h4{
+    font-size: 500%;
+    font-family: 'Cabin Condensed', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.about > p{
+    font-family: 'Cabin', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+}
+
+.lectures, .speakers, .areas ,.speakerlist{
+    border-left-style:solid;
+    border-right-style: solid;
+    border-color: rgb(218, 218, 218);
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    width: 70%;
+    padding-left: 2%;
+    padding-right: 4%;
+
+
+}
+
+.lectures > h4 {
+    font-size: 400%;
+    font-family: 'Cabin Condensed', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5%;
+
+}
+
+.lectures > p {
+    display: flex;
+    font-size: 100%;
+    font-family: 'Cabin', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.speakerlist > p {
+    margin-left: 5%;
+    font-size: 100%;
+    font-family: 'Cabin', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+
+}
+
+.speakerlist > h4 {
+    font-size: 300%;
+    font-family: 'Cabin Condensed', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5%;
+    
+}
+
+footer > p{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+    font-family: 'Cabin Condensed', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 140%;
+}
+
+
+.navbar {
+
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+
+.member{
+    border-left-style:solid;
+    border-right-style: solid;
+    border-color: rgb(218, 218, 218);
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    width: 70%;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+
+.member > button, label {
+
+    font-family: 'Cabin', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#login> h4 {
+    margin-bottom: 8%;
+    font-size: 400%;
+    font-family: 'Cabin Condensed', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gendersection {
+    margin-bottom: 5%;
+
+}
+
+p > img {
+    max-width:40%;
+
+}
+
+#lec1 > a{
+    color: blue;
+}
+
+#lec2 > a{
+    color: blue;
+    
+}
+
+.authors{
+    margin-left: 5%;
+
+    margin-bottom: 20%;
+
+}
+
+.time{
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+#lec1, #lec2{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 5%;
+}
